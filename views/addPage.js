@@ -6,21 +6,19 @@ module.exports = () => layout(html`
   <hr>
   <form method="POST" action="/wiki/">
 
-  <div class="form-group">
-  <label for="name" class="col-sm-2 control-label">Name</label>
-  <div class="col-sm-10">
-    <input id="name" name="name" type="text" class="form-control"/>
-  </div>
-</div>
+    <div class="form-group">
+      <label for="name" class="col-sm-2 control-label">Name</label>
+      <div class="col-sm-10">
+        <input id="name" name="name" type="text" class="form-control"/>
+      </div>
+    </div>
 
-
-<div class="form-group">
-<label for="email" class="col-sm-2 control-label">Email</label>
-<div class="col-sm-10">
-  <input id="email" name="email" type="text" class="form-control"/>
-</div>
-</div>
-
+    <div class="form-group">
+      <label for="email" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-10">
+        <input id="email" name="email" type="text" class="form-control"/>
+      </div>
+    </div>
 
     <div class="form-group">
       <label for="title" class="col-sm-2 control-label">Page Title</label>
